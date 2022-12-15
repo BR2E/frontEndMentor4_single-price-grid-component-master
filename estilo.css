@@ -25,7 +25,7 @@ body{
 
 .container{
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 350px 250px 350px;
@@ -39,6 +39,7 @@ body{
     background-color: white;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    
 }
 
 h1{
@@ -58,7 +59,7 @@ h1{
 }
 
 .textoBox1{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-family: var(--fuente);
     color: var(--GrayishBlue);
     margin: 20px;
@@ -70,8 +71,83 @@ h1{
 /* Segunda caja */
 
 .box2{
+    display: flex;
+    flex-direction: column;
     margin:0 30px 0;
     background-color: var(--Cyan);
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+}
+
+.box2 h2{
+    margin: 20px;
+    color: var(--LightGray);
+    font-size: 1.6rem;
+    font-family: var(--fuente);
+    font-weight: 700;
+}
+
+span{
+    margin-left: 20px;
+    display: inline-block;
+    font-family: var(--fuente);
+    font-weight: 700;
+    font-size: 3.4rem;
+    color: var(--LightGray);
+}
+
+.box2__precio-mes{
+    margin: 0 10px;
+    display: inline-block;
+    font-family: var(--fuente);
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--GrayishBlue);
+    vertical-align: calc(50% );
+}
+
+.box2__precio-dia{
+    margin: 15px 20px;
+    font-family: var(--fuente);
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--LightGray);
+}
+
+button{
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    align-self: center;
+    border-radius: 8px;
+    background-color: var(--BrightYellow);
+    border: none;
+    color: var(--LightGray);
+    font-size: 1.6rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Caja 3 */
+
+.box3{
+    margin: 0 30px 70px;
+    background-color: hsl(179, 64%, 53%);;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.box3 h2{
+    margin: 30px;
+    color: var(--LightGray);
+    font-size: 2rem;
+    font-family: var(--fuente);
+    font-weight: 700;
+}
+
+.box3 p{
+    margin: 0 30px;
+    font-family: var(--fuente);
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: var(--LightGray);
+    line-height: 24px;
 }

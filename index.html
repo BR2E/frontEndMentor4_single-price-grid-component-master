@@ -12,10 +12,12 @@
   <title>Frontend Mentor | Single Price Grid Component</title>
 
   <link rel="stylesheet" href="./estilo.css">
+  <link rel="stylesheet" href="./pc.css" media="(min-width:1200px)">
 
   
 </head>
 <body>
+
 
   <div class="container">
     
@@ -29,8 +31,11 @@
 
     <div class="box2">
       <h2>Monthly Subscription</h2>
-      <span>$</span> <p>29 per month</p>
-      <p>Full access for less than &dollar;1 a day</p>
+      <section>
+        <span>&dollar;29</span>
+        <p class="box2__precio-mes">per month</p>
+      </section>
+      <p class="box2__precio-dia">Full access for less than &dollar;1 a day</p>
       <button>Sign Up</button>
     </div>
 

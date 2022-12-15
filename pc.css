@@ -1,0 +1,41 @@
+
+.container{
+    height: 100%;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: 240px 280px;
+    justify-content: center;
+    align-content: center;
+}
+
+.box1,.box2,.box3{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Caja 1 */
+.box1{
+    grid-area: 1/1/1/3;
+}
+
+h1{
+    font-size: 2.2rem;
+    margin: 50px 40px 30px;
+}
+
+.textoVerde{
+    font-size: 1.8rem;
+    margin: 20px 40px;
+}
+
+.textoBox1{
+    font-size: 1.6rem;
+    margin: 20px 100px 0 40px;
+}
+
+/* Caja 3 */
+
+.caja2{
+    align-self: center;
+}
