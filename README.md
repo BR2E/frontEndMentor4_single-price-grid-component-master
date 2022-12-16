@@ -1,4 +1,4 @@
-# Sección de funciones de cuatro cartas
+# Componente de cuadrícula de precio único ( Single price grid component )
 
 
 ## Introducción
